@@ -22,7 +22,8 @@ typedef struct HEAPS
 
 void main()
 {
-    Object test;
+    Object *test;
+    Root root;
 
     printf("%d\n", sizeof(test));
 
